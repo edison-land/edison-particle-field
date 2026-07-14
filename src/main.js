@@ -76,7 +76,7 @@ function createTextTargets(width, height) {
   const mobile = width < 800;
   const work = document.createElement("canvas");
   const targetWidth = mobile ? Math.min(700, width * 1.7) : Math.min(1100, width * 0.82);
-  const targetHeight = mobile ? 620 : 600;
+  const targetHeight = mobile ? 620 : 680;
   work.width = Math.round(targetWidth);
   work.height = targetHeight;
 
@@ -97,7 +97,7 @@ function createTextTargets(width, height) {
     context.font = `900 ${fontSize}px Arial, Helvetica, sans-serif`;
   }
 
-  const lineHeight = fontSize * 0.72;
+  const lineHeight = fontSize * 0.88;
   const top = work.height / 2 - lineHeight;
 
   lines.forEach((line, index) => {
