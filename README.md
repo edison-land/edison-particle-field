@@ -33,6 +33,10 @@ The primary controls are near the top of `src/main.js` and inside `createTextTar
 - Lenis 1.3.17
 - Vite 8.1.4
 
+## Inspiration
+
+The motion study was inspired by [newmixcoffee.com](https://newmixcoffee.com/). This repository contains an independent implementation and does not include the reference site's brand assets, media, or source files.
+
 ## License
 
 MIT
