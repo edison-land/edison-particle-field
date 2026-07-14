@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+RECON/
+index-original.html
+NOTES.md
+TEARDOWN.md
